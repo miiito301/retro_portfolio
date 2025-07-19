@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio|works and profile</title>
+        <meta name="description" content="my portfolio site">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Press Start 2P', cursive;
+            }   
+        </style>
+    </head>
+
+    <body class="bg-black text-white min-h-screen flex flex-col">
+
+        <!-- 全体ラッパー -->
+        <div class="flex-grow w-full flex justify-center relative bg-black">
+
+
+            <!-- 中央コンテンツ部分 -->
+            <main class="bg-[#0f172a] w-full max-w-4xl px-4 sm:px-6 pt-24 pb-10 shadow-2xl relative z-0">
+
+                <!-- WORKSボタン（右上に絶対配置） -->
+                <div class="absolute top-4 right-4 z-10">
+                    <a href="works.html" class="btn-effect-1">➧ WORKS</a>
+                </div>
+
+                <!-- タイトル -->
+                <div class="mb-10 text-center" style="text-shadow: 0 0 15px rgb(255, 255, 255);">
+                    <h1 class="text-4xl md:text-6xl mb-2">PORTFOLIO</h1>
+                    <p class="text-xl text-yellow-500" style="text-shadow: 0 0 30px rgb(134, 132, 16);">START</p>
+                </div>
+
+                <!-- PROFILE -->
+                <section class="w-full mb-10">
+                    <div class="bg-blue-600 text-white text-center py-2 mb-4 text-xs sm:text-sm"
+                    style="box-shadow: 0 0 15px rgb(0, 30, 255); text-shadow: 0 0 15px rgb(255, 255, 255);"
+                    >PROFILE</div>
+
+                    <div class="grid grid-cols-[1fr_3fr] gap-4 text-xs sm:text-sm">
+                    <div class="text-center">
+                        <img src="assets/character_hero_blue_man.png" alt="profile-photo"
+                        class="w-40 h-30 object-contain mx-auto"
+                        style="filter: drop-shadow(0 0 3px rgb(174, 178, 178)) drop-shadow(0 0 7px rgb(67, 155, 172)) drop-shadow(0 0 10px rgb(8, 52, 128));">
+                        <p class="mt-3 text-yellow-500"
+                        style="text-shadow: 0 0 10px rgb(255, 251, 22);"
+                        >Ken Yasukawa</p>
+                    </div>
+                    <div class="border border-cyan-400 rounded-md p-4 space-y-2"
+                    style="box-shadow: 0 0 10px rgb(13, 106, 153);">
+                        <p>Working as SAP consultant
+                            at a software firm</p>
+                        <p>Specialize in finance and digital solutions</p>
+                        <p>Graduates from Kobe University</p>
+                        <p>Studied Finance at Groningen in Netherlands</p>
+                        <p>Enjoys sauna trip across Japan</p>
+                    </div>
+                    </div>
+                </section>
+
+                <!-- SKILLS -->
+                <section class="w-full mb-10">
+                    <div class="bg-green-600 text-white text-center py-2 mb-4 text-xs sm:text-sm"
+                    style="box-shadow: 0 0 15px rgb(3, 174, 8); text-shadow: 0 0 15px rgb(255, 255, 255);"
+                    >SKILLS</div>
+
+                    <div class="grid grid-cols-2 gap-4 text-xs sm:text-sm">
+                        <div class="flex items-center gap-2 p-4 ">
+                            <img src="assets/html-5.png" class="h-10 w-10">
+                            <p class="ml-2 break-words">HTML</p>
+                        </div>
+                    <div class="flex items-center gap-2 p-4">
+                        <img src="assets/css-3.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">CSS<br>Bootstrap Tailwind</p>
+                    </div>
+                    <div class="flex items-center gap-2 p-4 ">
+                        <img src="assets/js.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">JavaScript<br>Vue.js</p>
+                    </div>
+                    <div class="flex items-center gap-2 p-4 ">
+                        <img src="assets/python.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">Python<br>Machine Learning</p>
+                    </div>
+                    <div class="flex items-center gap-2 p-4 ">
+                        <img src="assets/computer.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">Tools<br>Github Render Vercel</p>
+                    </div>
+                    <div class="flex items-center gap-2 p-4 ">
+                        <img src="assets/database-storage.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">Database<br>MongoDB MySQL</p>
+                    </div>
+                    <div class="flex items-center gap-2 p-4 ">
+                        <img src="assets/excel.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">VBA</p>
+                    </div>
+                    <div class="flex items-center gap-2 p-4 ">
+                        <img src="assets/united-kingdom.png" class="h-10 w-10">
+                        <p class="ml-2 break-words">English<br>TOEIC970 TOEFL92</p>
+                    </div>
+                    </div>
+                </section>
+
+                <!-- LINKS -->
+                <section class="w-full mb-10">
+                    <div class="bg-yellow-600 text-white text-center py-2 mb-4 text-xs sm:text-sm"
+                    style="box-shadow: 0 0 15px rgb(218, 163, 12); text-shadow: 0 0 15px rgb(255, 255, 255);"
+                    >LINKS</div>
+
+                    <div class="grid grid-cols-2 gap-4 text-xs sm:text-sm">
+                        <div class="flex items-center gap-2 p-4">
+                            <img src="assets/github.png" class="h-10 w-10">
+                            <a href="https://github.com/miiito301" class="ml-2 break-words underline text-blue-600">
+                            miiito_301</a>
+                        </div>
+                        <div class="flex items-center gap-2 p-4">
+                            <img src="assets/instagram.png" class="h-10 w-10">
+                            <a href="https://www.instagram.com/" class="ml-2 break-words underline text-blue-600">
+                            @K_y_____</a>
+                        </div>
+                        <div class="flex items-center gap-2 p-4">
+                            <img src="assets/kaggle-logo-transparent-300.png" class="h-10 w-10">
+                            <a href="https://www.kaggle.com/miiito310" class="ml-2 break-words underline text-blue-600">
+                                miiito_310</a>
+                        </div>
+                        <div class="flex items-center gap-2 p-4">
+                            <img src="assets/Qc8j5Z8A_400x400.jpg" class="h-10 w-10 rounded-md">
+                            <a href="https://user.competition.signate.jp/ja/account/?tab=public" class="ml-2 break-words underline text-blue-600">
+                                miito_310</a>
+                        </div>
+                    </div>
+
+                </section>
+
+                </main>
+            </div>
+    </body>
+
+</html>
+
+<style>
+
+  .btn-effect-1 {
+    display: inline-block;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid #0ff;
+    background: transparent;
+    color: #0ff;
+    box-shadow: 0 0 5px #0ff;
+    text-shadow: 0 0 30px rgb(134, 132, 16);
+    transition: all 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
+}
+
+  .btn-effect-1:hover {
+    background: #0ff;
+    color: #111;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+  }
+
+</style>
